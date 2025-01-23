@@ -3,141 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulazione Dati Sensibili</title>
+    <title>Dati Sensibili - Personaggio Fittizio</title>
     <style>
         body {
-            font-family: 'Courier New', monospace;
-            background-color: #000;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-            padding-top: 80px; /* Aumentato margine superiore */
-            padding-bottom: 80px; /* Aumentato margine inferiore */
-        }
-
-        .container {
-            width: 100%;
-            max-width: 375px; /* Simula la larghezza di un iPhone 13 */
-            background-color: #222;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
-            overflow-y: auto;
-            box-sizing: border-box;
-            margin-top: 20px;
-        }
-
-        h1, h2, h3, p {
-            margin: 10px 0;
-        }
-
-        .data-block {
-            background-color: #333;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
-        }
-
-        .data-block h3 {
-            font-size: 14px;
-            color: #fff;
-            margin-bottom: 5px;
-        }
-
-        .data-block p {
-            font-size: 12px;
-            color: #bbb;
-        }
-
-        .highlight {
-            font-weight: bold;
-            color: #fff;
-        }
-
-        .dots {
-            font-size: 16px;
-            color: #777;
+            background-color: black;
+            color: green;
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 100px;
+            margin-bottom: 100px;
             text-align: center;
-            margin: 5px 0;
         }
 
-        .final-message {
-            font-size: 12px;
-            color: #aaa;
-            margin-top: 20px;
+        h1, h2, h3 {
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
             line-height: 1.5;
         }
+
+        .separatore {
+            height: 1px;
+            background-color: green;
+            margin: 20px 0;
+        }
+
+        .puntini {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        .puntini span {
+            margin: 5px;
+        }
+
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>INFORMAZIONI SUL SOGGETTO</h1>
 
-        <div class="data-block">
-            <h3>INFORMAZIONI PERSONALI</h3>
-            <p><span class="highlight">[Nome completo]</span>: Mario Rossi</p>
-            <p><span class="highlight">[Data di nascita]</span>: 15/04/1985</p>
-            <p><span class="highlight">[Nazionalità]</span>: Italiana</p>
-            <p><span class="highlight">[Codice Fiscale]</span>: RSSMRA85D15H501X</p>
-            <p><span class="highlight">[Indirizzo]</span>: Via Roma 123, 00100 Roma</p>
-            <p><span class="highlight">[Numero di telefono]</span>: +39 333 1234567</p>
-            <p><span class="highlight">[Email]</span>: mario.rossi@email.com</p>
-            <p><span class="highlight">[Password email]</span>: MiaPassword123!</p>
-            <p><span class="highlight">[IBAN]</span>: IT60X0542811101000000123456</p>
-        </div>
+<h1>INFORMAZIONI SUL SOGGETTO</h1>
 
-        <div class="data-block">
-            <h3>Dettagli caratteriali</h3>
-            <p><span class="highlight">[Segni caratteriali]</span>: Narcisista, permaloso, paziente</p>
-            <p><span class="highlight">[Ideali]</span>: Fiducia nella comunità scientifica</p>
-        </div>
+<p>[Nome completo]: Mario Rossi</p>
+<p>[Data di nascita]: 15/04/1985</p>
+<p>[Nazionalità]: Italiana</p>
+<p>[Codice Fiscale]: RSSMRA85D15H501X</p>
+<p>[Indirizzo]: Via Roma 123, 00100 Roma</p>
+<p>[Numero di telefono]: +39 333 1234567</p>
+<p>[Email]: mario.rossi@email.com</p>
+<p>[Password email]: MiaPassword123!</p>
+<p>[IBAN]: IT60X0542811101000000123456</p>
 
-        <h3>DETTAGLI DISPOSITIVO OSSERVATORE</h3>
-        <div class="data-block">
-            <p><span class="highlight">[Indirizzo IP]</span>: 192.168.1.23</p>
-            <p><span class="highlight">[Posizione geografica]</span>: Milano, Italia</p>
-            <p><span class="highlight">[Dispositivo connesso]</span>: Smartphone</p>
-            <p><span class="highlight">[Provider Internet]</span>: FastWeb</p>
-            <p><span class="highlight">[Siti visitati di frequente]</span>: social media, e-commerce, streaming</p>
-            <p><span class="highlight">[App utilizzate]</span>: giochi, servizi bancari, messaggistica</p>
-        </div>
+<div class="separatore"></div>
 
-        <div class="dots">...</div>
-        <div class="dots">...</div>
-        <div class="dots">...</div>
-        <div class="dots">...</div>
-        <div class="dots">...</div>
-        <div class="dots">...</div>
-        <div class="dots">...</div>
-        <div class="dots">...</div>
-        <div class="dots">...</div>
-        <div class="dots">...</div>
+<p>[Segni caratteriali]: Narcisista, permaloso, paziente</p>
+<p>[Ideali]: Fiducia nella comunità scientifica</p>
 
-        <div class="final-message">
-            <p>Questi dati sono fittizi e creati esclusivamente per dimostrare cosa accade quando la privacy di un individuo viene violata attraverso l’uso di social network, cookie e strumenti online.</p>
-            <p>Le informazioni raccolte e condivise in modo non autorizzato possono rivelare dettagli profondi e personali, evidenziando quanto sia importante tutelare la propria sicurezza digitale e navigare con consapevolezza.</p>
-            <p>Ti sei mai chiesto cosa accade ai tuoi dati quando clicchi "Accetta"?<br>
-               Ogni volta che autorizzi i cookie o condividi un post sui social, sai davvero chi sta osservando?<br>
-               Ti sembra normale che dopo aver cercato un prodotto online, inizi a vedere pubblicità ovunque?</p>
-            <p>Ogni "Mi piace" contribuisce a creare un profilo su di te.<br>
-               Ti senti a tuo agio sapendo che aziende o agenzie potrebbero usarlo per influenzarti?<br>
-               E cosa succede quando inserisci il tuo indirizzo email?<br>
-               Sai che potrebbe essere venduto o usato per scopi che non conosci?</p>
-            <p>Ti hanno detto che i cookie sono innocui, ma ti sei mai chiesto perché tracciano ogni tua mossa?<br>
-               E quanto sei certo che i tuoi dati siano davvero al sicuro?<br>
-               Violazioni e furti di informazioni accadono perché spesso le piattaforme non proteggono abbastanza.</p>
-            <p>Pensi di essere libero online?<br>
-               Oppure percepisci un’ombra invisibile che studia ogni tua scelta, prevedendo le tue mosse?<br>
-               Se tutto ciò che fai contribuisce a creare un’immagine digitale di te, un’immagine che può essere comprata e venduta, come ti sentiresti?</p>
-            <p>Non è il momento di ripensare a cosa condividi e a chi lo permetti?<br>
-               Chi controlla davvero la tua vita online?</p>
-        </div>
-    </div>
+<div class="separatore"></div>
+
+<p>[Siti visitati di frequente]: social media, e-commerce, streaming</p>
+<p>[App utilizzate]: giochi, servizi bancari, messaggistica</p>
+
+<div class="puntini">
+    <span>...</span><span>...</span><span>...</span><br>
+    <span>...</span><span>...</span><span>...</span><br>
+    <span>...</span><span>...</span><span>...</span><br>
+    <span>...</span><span>...</span><span>...</span><br>
+    <span>...</span><span>...</span><span>...</span>
+</div>
+
+<div class="separatore"></div>
+
+<p>Questi dati sono fittizi e creati esclusivamente per dimostrare cosa accade quando la privacy di un individuo viene violata attraverso l’uso di social network, cookie e strumenti online.</p>
+<p>Le informazioni raccolte e condivise in modo non autorizzato possono rivelare dettagli profondi e personali, evidenziando quanto sia importante tutelare la propria sicurezza digitale e navigare con consapevolezza.</p>
+
+<p>Ti sei mai chiesto cosa accade ai tuoi dati quando clicchi "Accetta"?<br>
+Ogni volta che autorizzi i cookie o condividi un post sui social, sai davvero chi sta osservando?<br>
+Ti sembra normale che dopo aver cercato un prodotto online, inizi a vedere pubblicità ovunque?</p>
+
+<p>Ogni "Mi piace" contribuisce a creare un profilo su di te.<br>
+Ti senti a tuo agio sapendo che aziende o agenzie potrebbero usarlo per influenzarti?<br>
+E cosa succede quando inserisci il tuo indirizzo email?<br>
+Sai che potrebbe essere venduto o usato per scopi che non conosci?</p>
+
+<p>Ti hanno detto che i cookie sono innocui, ma ti sei mai chiesto perché tracciano ogni tua mossa?<br>
+E quanto sei certo che i tuoi dati siano davvero al sicuro?<br>
+Violazioni e furti di informazioni accadono perché spesso le piattaforme non proteggono abbastanza.</p>
+
+<p>Pensi di essere libero online?<br>
+Oppure percepisci un’ombra invisibile che studia ogni tua scelta, prevedendo le tue mosse?<br>
+Se tutto ciò che fai contribuisce a creare un’immagine digitale di te, un’immagine che può essere comprata e venduta, come ti sentiresti?</p>
+
+<p>Non è il momento di ripensare a cosa condividi e a chi lo permetti?<br>
+Chi controlla davvero la tua vita online?</p>
+
 </body>
 </html>
